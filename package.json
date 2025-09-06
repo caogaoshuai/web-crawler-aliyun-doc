@@ -1,0 +1,48 @@
+{
+  "name": "aliyun-docs-crawler",
+  "version": "1.1.0",
+  "description": "精准的阿里云文档抓取工具 - 基于HTML结构优先判断，页面类型识别准确率>98%，自动递归抓取并转换为Markdown格式",
+  "main": "index.js",
+  "bin": {
+    "aliyun-docs-crawler": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dry-run": "node index.js --dry-run",
+    "example": "node index.js example",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "aliyun",
+    "docs",
+    "crawler",
+    "scraper",
+    "markdown",
+    "documentation",
+    "puppeteer",
+    "html-structure",
+    "intelligent-parsing",
+    "recursive-crawling"
+  ],
+  "author": "CGS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/aliyun-docs-crawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/aliyun-docs-crawler/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/aliyun-docs-crawler#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.1",
+    "mkdirp": "^3.0.1",
+    "p-queue": "^6.6.2",
+    "puppeteer": "^24.19.0",
+    "slugify": "^1.6.6",
+    "turndown": "^7.2.1",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
