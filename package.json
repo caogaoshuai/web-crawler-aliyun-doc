@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/aliyun-docs-crawler.git"
+    "url": "git+https://github.com/caogaoshuai/web-crawler-aliyun-doc.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/aliyun-docs-crawler/issues"
+    "url": "https://github.com/caogaoshuai/web-crawler-aliyun-doc/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/aliyun-docs-crawler#readme",
+  "homepage": "https://github.com/caogaoshuai/web-crawler-aliyun-doc#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^14.0.0",
